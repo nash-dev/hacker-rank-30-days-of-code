@@ -5,7 +5,7 @@ public class Day22 {
         int count = 0;
         
         if(root == null){
-            return 0;
+            return -1;
         }
         
         int left = getHeight(root.left);
